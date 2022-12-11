@@ -1,4 +1,4 @@
-# Projeto Relógio digital com data 📝
+# Projeto Relógio digital com data ⏰📅
 
 Página que apresenta um relógio digital e a data. Codificado sem uso de bibliotecas de manipulação de data e hora.
 
