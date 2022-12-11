@@ -1,0 +1,33 @@
+:root{
+  --main-bg-color: #5e5296;
+  --main-bg-display-color:#FFF;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--main-bg-color);
+  color:var(--main-bg-display-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2.2rem;
+}
+
+.clock-container{
+  font-size: 4rem;
+}
+
+.clock-container span {
+  padding: 1.5rem;
+  background: var(--main-bg-display-color);
+  color: var(--main-bg-color);
+  border-radius: 0.7rem;
+}
+
+.date-container {
+  font-style: italic;
+  font-size: 1.2rem;
+}
